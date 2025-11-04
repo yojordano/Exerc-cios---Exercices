@@ -1,6 +1,7 @@
-number = int(input('Me fale um numero: '))
-number1 = int(input('me fale outro numero: '))
-#now below will show the sam about the number above
-print(number + number1)
-#now below will show the number times number1
-print(number - number1)
+number = int(input("Enter a number: "))
+number1 = int(input("Enter another number: "))
+
+if number > number1:
+  print(f"{number} is greater than {number1}")
+elif number <= number1:
+  print(f"{number} is less than or equal to {number1}")
