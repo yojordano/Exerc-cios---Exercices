@@ -1,2 +1,5 @@
-name = input('What your name? ')
-print('Nice to meet you {}!'.format(name))
+name = input("What did you say? ")
+
+print(name)
+print(((name + " ") * 2).strip())
+print(((name + " ") * 3).strip())
